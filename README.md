@@ -1,10 +1,10 @@
         Linked Data Organisation
         
-        The section introduces an implementation approach that uses memory only as needed (for a
-        new entry) and returns unneeded memory to the system (after an entry is removed)
-       • By using a linked data organisation to implement the Bag ADT we avoid moving data when
-       adding or removing bag entries
-       Linked Data Organisation
+      The section introduces an implementation approach that uses memory only as needed (for a
+      new entry) and returns unneeded memory to the system (after an entry is removed)
+      • By using a linked data organisation to implement the Bag ADT we avoid moving data when
+      dding or removing bag entries
+      Linked Data Organisation
       • A linked list (linked chain) is a linear data structure often used to implement other data
       structures (such as stacks, queues, trees)
       
