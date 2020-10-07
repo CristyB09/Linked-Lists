@@ -37,18 +37,6 @@ public class MyNode<T> {
         System.out.println("Value of node2 is " + node1.getNext().getData());
         System.out.println("Value of node3 is " + node1.getNext().getNext().getData());
 
-
-
     }
-
-
-
-
-
-
-
-
-
-
 
 }
