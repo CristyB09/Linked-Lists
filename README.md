@@ -57,7 +57,7 @@
            Specifying a Bag (summary)
            
     • A reminder list of our method signatures for the Bag ADT:
-   Specifying a Bag (summary)
+     Specifying a Bag (summary)
     • We have implemented these with the Bag organized as an array – let’s do the same for
     a linked list implementation
     • int getCurrentSize()
