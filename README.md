@@ -1,3 +1,5 @@
+       #1 Pointers and Linked Chain Structures
+       
         Linked Data Organisation
         
       The section introduces an implementation approach that uses memory only as needed (for a
@@ -49,3 +51,43 @@
     • Set the next fields of the nodes so that node1 points to node2 and node2 points to node3.
     • Now, without referring directly to node2 or node3,write code to print the values of all 3 nodes.           
                
+               
+    #2  Linked Implementation
+              
+           Specifying a Bag (summary)
+           
+    • A reminder list of our method signatures for the Bag ADT:
+   Specifying a Bag (summary)
+    • We have implemented these with the Bag organized as an array – let’s do the same for
+    a linked list implementation
+    • int getCurrentSize()
+    • boolean isEmpty
+    • boolean addNewEntry(T newEntry)
+    • T remove()
+    • boolean remove(T anEntry)
+    • void clear()
+    • int getFrequencyOf(T anEntry)
+    • boolean contains(T anEntry)
+    • T[] toArray
+    
+      Scenario
+      
+      In your Bag project, create the file LinkedBag.java and implement the class LinkedBag to
+      implement the BagInterface class, providing all public methods that have been previously
+      provided by ArrayBag.
+      • Update the BagTest class to perform the same tests on an instance of LinkedBag and trace
+      through the diagnostic messages returned to check the success of your implementation
+      
+     
+      Pros and Cons of Using a Chain
+      
+      Pros:
+      • Bag can grow and shrink in size as necessary
+      • Remove and recycle nodes that are no longer needed
+      • Adding to the beginning of the chain is equally as simple as adding to the end of an
+      array
+      • Removing from the beginning of the chain is equally as simple as removing from the
+      end of an array
+      • Cons:
+      • Chain requires more memory than array of same length
+      • Removing specific entry requires search of the chain (similar to array
